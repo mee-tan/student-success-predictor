@@ -1,6 +1,6 @@
 export default function HomePage() {
   return (
-    <main className="min-h-screen bg-gradient-to-br from-slate-900 to-slate-800 text-white flex items-center justify-center px-6">
+    <main className="min-h-screen from-slate-900 to-slate-800 text-white flex items-center justify-center px-6">
       <div className="max-w-4xl text-center">
         {/* Title */}
         <h1 className="text-4xl md:text-6xl font-bold mb-6">
@@ -22,17 +22,17 @@ export default function HomePage() {
         {/* Buttons */}
         <div className="flex flex-col md:flex-row gap-4 justify-center">
           <a
-            href="/predict"
+            href="/predictpersistance"
             className="px-8 py-4 rounded-2xl bg-white text-slate-900 font-semibold hover:bg-slate-200 transition"
           >
-            Start Prediction
+            Predict Persistance
           </a>
 
           <a
-            href="/about"
+            href="/predictAP"
             className="px-8 py-4 rounded-2xl border border-white text-white font-semibold hover:bg-white hover:text-slate-900 transition"
           >
-            Learn More
+            Predict Academic Performance
           </a>
         </div>
 
