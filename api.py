@@ -8,11 +8,11 @@ app = Flask(__name__)
 # -----------------------
 # Load BOTH models
 # -----------------------
-academic_model = tf.keras.models.load_model("output/academic_model.h5")
-persistence_model = tf.keras.models.load_model("output/persistence_model.h5")
+academic_model = tf.keras.models.load_model("output/new_academic_model.h5")
+persistence_model = tf.keras.models.load_model("output/new_persistence_model.h5")
 
-academic_scaler = joblib.load("output/scalar_academic.pkl")
-persistence_scaler = joblib.load("output/scalar_persistence.pkl")
+academic_scaler = joblib.load("output/new_scalar_academic.pkl")
+persistence_scaler = joblib.load("output/new_scalar_persistence.pkl")
 
 # -----------------------
 # Prediction route
